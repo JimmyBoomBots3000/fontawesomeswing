@@ -1,0 +1,26 @@
+**/.idea/
+**/target/
+**/out/
+.DS_STORE
+**/*.iml
+# Temporary output from the retired Gradle build
+**/build/
+**/.gradle/
+**/.nb-gradle/
+# Maven Release Plugin working files
+**/release.properties
+**/pom.xml.releaseBackup
+**/pom.xml.tag
+**/pom.xml.next
+**/pom.xml.branch
+**/pom.xml.backup
+**/pom.xml.versionsBackup
+**/release-pom.xml
+# Local credentials belong outside version control.
+/.env
+/.env.*
+!/.env.example
+/settings.xml
+/.mvn/settings.xml
+# Private maintainer release wrapper
+/release
