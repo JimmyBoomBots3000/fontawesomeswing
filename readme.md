@@ -38,7 +38,8 @@ After installing locally, add:
 <dependency>
     <groupId>io.github.jimmyboombots3000</groupId>
     <artifactId>fontawesomeswing-fontawesome</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+<!--    replace with current version-->
+    <version>1.0.0</version>
 </dependency>
 ```
 
