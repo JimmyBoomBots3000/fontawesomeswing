@@ -5,12 +5,11 @@
         <groupId>io.github.jimmyboombots3000</groupId>
         <artifactId>fontawesomeswing-parent</artifactId>
         <version>1.0.1-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
-    <artifactId>fontawesomeswing-materialicons</artifactId>
-    <name>fontawesomeswing-materialicons</name>
+    <artifactId>fontawesomeswing-octicons</artifactId>
+    <name>fontawesomeswing-octicons</name>
     <properties>
-        <license.directory>${project.basedir}/../..</license.directory>
+        <license.directory>${project.basedir}/..</license.directory>
     </properties>
     <dependencies>
         <dependency>
@@ -25,8 +24,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.5.0</version>
                 <configuration>
-                    <mainClass>
-                        io.github.jimmyboombots3000.fontawesomeswing.glyphs.materialicons.demo.MaterialIconsDemoApp
+                    <mainClass>io.github.jimmyboombots3000.fontawesomeswing.glyphs.octicons.demo.OctIconsDemoApp
                     </mainClass>
                 </configuration>
             </plugin>
@@ -37,7 +35,7 @@
                     <archive>
                         <manifest>
                             <mainClass>
-                                io.github.jimmyboombots3000.fontawesomeswing.glyphs.materialicons.demo.MaterialIconsDemoApp
+                                io.github.jimmyboombots3000.fontawesomeswing.glyphs.octicons.demo.OctIconsDemoApp
                             </mainClass>
                         </manifest>
                     </archive>

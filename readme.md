@@ -27,8 +27,8 @@ export JAVA_HOME=$(/usr/libexec/java_home -v 17)
 ./mvnw -Pjavadoc verify   # Also package API documentation
 ```
 
-The root POM builds ten modules under `fontawesomeswing/`. To build only Font
-Awesome and commons, add `-pl :fontawesomeswing-fontawesome -am`.
+The root POM builds ten modules directly beneath the repository root. To build
+only Font Awesome and commons, add `-pl :fontawesomeswing-fontawesome -am`.
 
 ## Use in a Swing application
 

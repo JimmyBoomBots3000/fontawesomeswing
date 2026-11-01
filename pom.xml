@@ -47,16 +47,16 @@
     <license.directory>${project.basedir}</license.directory>
   </properties>
   <modules>
-    <module>fontawesomeswing/fontawesomeswing-commons</module>
-    <module>fontawesomeswing/fontawesomeswing-controls</module>
-    <module>fontawesomeswing/fontawesomeswing-emojione</module>
-    <module>fontawesomeswing/fontawesomeswing-fontawesome</module>
-    <module>fontawesomeswing/fontawesomeswing-icons525</module>
-    <module>fontawesomeswing/fontawesomeswing-materialdesignfont</module>
-    <module>fontawesomeswing/fontawesomeswing-materialicons</module>
-    <module>fontawesomeswing/fontawesomeswing-materialstackicons</module>
-    <module>fontawesomeswing/fontawesomeswing-octicons</module>
-    <module>fontawesomeswing/fontawesomeswing-weathericons</module>
+    <module>fontawesomeswing-commons</module>
+    <module>fontawesomeswing-controls</module>
+    <module>fontawesomeswing-emojione</module>
+    <module>fontawesomeswing-fontawesome</module>
+    <module>fontawesomeswing-icons525</module>
+    <module>fontawesomeswing-materialdesignfont</module>
+    <module>fontawesomeswing-materialicons</module>
+    <module>fontawesomeswing-materialstackicons</module>
+    <module>fontawesomeswing-octicons</module>
+    <module>fontawesomeswing-weathericons</module>
   </modules>
   <dependencyManagement>
     <dependencies>

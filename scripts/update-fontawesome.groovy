@@ -45,7 +45,7 @@ try (def zip = new ZipFile(archive)) {
     new File(module, 'src/main/fontawesome/metadata.json').setText(JsonOutput.prettyPrint(JsonOutput.toJson(metadata)) + '\n', 'UTF-8')
     def resource = new File(module, 'src/main/resources/io/github/jimmyboombots3000/fontawesomeswing/glyphs/fontawesome')
     resources.each { style, bytes -> Files.write(new File(resource, "fa-${style}.otf").toPath(), bytes) }
-    Files.write(new File(module, 'src/main/resources/license/LICENSE.txt').toPath(), license)
-    Files.write(new File(module, '../../licenses/fontawesome-free.txt').toPath(), license)
+    Files.write(new File(module, 'src/main/resources/META-INF/module-license/LICENSE.txt').toPath(), license)
+    Files.write(new File(module, '../licenses/fontawesome-free.txt').toPath(), license)
     log.info("Imported Font Awesome Free ${version}; archive SHA-256: ${sha256}")
 }

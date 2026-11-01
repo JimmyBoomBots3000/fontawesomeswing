@@ -5,12 +5,11 @@
         <groupId>io.github.jimmyboombots3000</groupId>
         <artifactId>fontawesomeswing-parent</artifactId>
         <version>1.0.1-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
     <artifactId>fontawesomeswing-fontawesome</artifactId>
     <name>fontawesomeswing-fontawesome</name>
     <properties>
-        <license.directory>${project.basedir}/../..</license.directory>
+        <license.directory>${project.basedir}/..</license.directory>
     </properties>
     <dependencies>
         <dependency>
@@ -75,7 +74,7 @@
                         </goals>
                         <configuration>
                             <scripts>
-                                <script>${project.basedir}/../../scripts/generate-fontawesome.groovy</script>
+                                <script>${project.basedir}/../scripts/generate-fontawesome.groovy</script>
                             </scripts>
                         </configuration>
                     </execution>
@@ -111,7 +110,7 @@
                                 </goals>
                                 <configuration>
                                     <scripts>
-                                        <script>${project.basedir}/../../scripts/update-fontawesome.groovy</script>
+                                        <script>${project.basedir}/../scripts/update-fontawesome.groovy</script>
                                     </scripts>
                                 </configuration>
                             </execution>

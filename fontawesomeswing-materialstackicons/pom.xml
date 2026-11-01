@@ -5,12 +5,11 @@
         <groupId>io.github.jimmyboombots3000</groupId>
         <artifactId>fontawesomeswing-parent</artifactId>
         <version>1.0.1-SNAPSHOT</version>
-        <relativePath>../../pom.xml</relativePath>
     </parent>
     <artifactId>fontawesomeswing-materialstackicons</artifactId>
     <name>fontawesomeswing-materialstackicons</name>
     <properties>
-        <license.directory>${project.basedir}/../..</license.directory>
+        <license.directory>${project.basedir}/..</license.directory>
     </properties>
     <dependencies>
         <dependency>
